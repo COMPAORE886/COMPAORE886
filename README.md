@@ -3,6 +3,27 @@
 Passionné du numérique, j’explore, j’apprends et je crée des solutions qui donnent vie aux idées.
 Ouagadougou, Burkina Faso.
 
+### FESPACO 2027 · plateforme du festival, en français et en anglais
+
+<a href="https://fespaco-demo.onrender.com">
+  <img src="fespaco-2027.jpg" alt="Page d’accueil du site, dans la nuit : faisceaux de projecteur, « FESPACO 2027 », 30e édition, Festival panafricain du cinéma et de la télévision de Ouagadougou, du 20 au 27 mars 2027, et un tableau à palettes qui affiche les séances du jour, avec les boutons « Prendre mon pass » et « Réserver une séance »">
+</a>
+
+Une démonstration de plateforme complète pour le Festival panafricain du cinéma et de la télévision de Ouagadougou, bilingue français et anglais :
+
+- **vitrine** : le festival depuis 1969, le programme salle par salle, les films et leurs sections, le palmarès, les infos pratiques ;
+- **billetterie** à la séance et pass festivalier, jauges tenues en direct, paiement Orange Money et Moov Money, billets dont le QR code change toutes les 15 secondes, contrôle à l’entrée de chaque salle ;
+- **accréditations** presse et professionnels, **MICA** (sociétés, plan, stands, rendez-vous d’affaires) et **appel à films**, frais réglés en ligne ;
+- **back-office** : programmation des séances, comité de sélection, guichet, réglages, studio des réseaux sociaux, double authentification.
+
+<a href="https://fespaco-demo.onrender.com"><img src="https://img.shields.io/badge/%E2%96%B6%20Lancer%20la%20d%C3%A9mo-D71F2C?style=for-the-badge" alt="Lancer la démo"></a>
+
+La démo s’ouvre dans le navigateur, sans rien installer. Les identifiants pour tester les espaces et le back-office sont dans le bandeau « Démo », en bas à droite. Les films, le programme et les ventes sont fictifs, les paiements simulés ne valident aucune commande, aucun e-mail n’est envoyé, et tout est effacé quand la démo se met en veille. Si personne ne l’a ouverte récemment, le premier chargement prend une à deux minutes.
+
+**Technique** : Laravel 12, PHP 8.2, MySQL, animations WebGL et GSAP. Tests automatisés (sur SQLite et MySQL) et analyse de sécurité (Semgrep) à chaque modification.
+
+Projet personnel, non affilié à l’ABCA ni au FESPACO. Code source privé, sous licence propriétaire.
+
 ### SIAO 2026 · site du salon, billetterie et e-SIAO
 
 <a href="https://siao-demo.onrender.com">
