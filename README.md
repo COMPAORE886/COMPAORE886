@@ -3,6 +3,27 @@
 Passionné du numérique, j’explore, j’apprends et je crée des solutions qui donnent vie aux idées.
 Ouagadougou, Burkina Faso.
 
+### CorrectIA · correction de copies d’examen assistée par IA
+
+<a href="https://correctia-demo.onrender.com">
+  <img src="correctia.jpg" alt="Écran du professeur dans CorrectIA : à gauche, la copie manuscrite numérisée et anonyme d’un devoir de réseaux ; à droite, la correction question par question (notion, points sur 5, commentaire) et la note de 15 sur 20, avec les boutons « Valider » et « À revoir »">
+</a>
+
+Une plateforme web qui corrige les copies d’examen avec l’intelligence artificielle, sans jamais révéler au correcteur l’identité de l’étudiant :
+
+- **surveillant** : codes d’anonymat et numérisation des copies ;
+- **professeur** : l’IA propose une note et un commentaire pour chaque question, le professeur ajuste, valide et transmet ;
+- **étudiant** : sa note, le détail de chaque question et l’appréciation ;
+- **administration** : établissements, classes, équipes, fournisseurs d’IA et quotas. Une note ne dépasse jamais le barème, chaque correction est historisée et les données sont chiffrées par établissement.
+
+<a href="https://correctia-demo.onrender.com"><img src="https://img.shields.io/badge/%E2%96%B6%20Lancer%20la%20d%C3%A9mo-37517E?style=for-the-badge" alt="Lancer la démo"></a>
+
+La démo s’ouvre dans le navigateur, sans rien installer. Les identifiants pour essayer chaque rôle sont dans le bandeau « Démo », en bas à droite. L’IA y est désactivée : les cinq copies, écrites à la main, sont fictives et leurs corrections sont des exemples préparés à l’avance, mais ajuster, valider ou transmettre une note fonctionne. Tout est effacé quand la démo se met en veille. Si personne ne l’a ouverte récemment, le premier chargement prend une à deux minutes.
+
+**Technique** : Django 6, Python, PostgreSQL, Celery, IA Anthropic ou OpenAI au choix, lecture automatique des copies (OCR). 995 tests automatisés et analyse de sécurité (Bandit) à chaque modification.
+
+Projet de licence en réseaux informatiques et télécommunications. Code source privé.
+
 ### FESPACO 2027 · plateforme du festival, en français et en anglais
 
 <a href="https://fespaco-demo.onrender.com">
