@@ -3,6 +3,29 @@
 Passionné du numérique, j’explore, j’apprends et je crée des solutions qui donnent vie aux idées.
 Ouagadougou, Burkina Faso.
 
+### SGS · gestion scolaire pour les collèges et lycées
+
+<a href="https://sgs-demo.onrender.com">
+  <img src="sgs.jpg" alt="Tableau de bord de la direction d’un collège-lycée fictif dans SGS : le mot de la direction, la liste « À traiter » (élèves en retard de paiement, appels à faire, notes non publiées, justificatif d’absence, incident de discipline), et les indicateurs de l’année : 72 élèves inscrits, assiduité de 96,5 %, moyenne de 12,11 sur 20 et frais encaissés">
+</a>
+
+Un logiciel de gestion scolaire en ligne, pensé pour les établissements du Burkina Faso, où chaque école a sa propre base de données :
+
+- **direction** : élèves, personnel, classes, emplois du temps, frais et reçus en FCFA, rapports en PDF et Excel, et la liste de ce qui attend ;
+- **professeurs** : l’appel en trois gestes, même sans réseau, les notes saisies au clavier, le cahier de textes ;
+- **élèves et parents** : moyennes, bulletins, absences et frais, une absence justifiée en ligne ; un parent voit tous ses enfants, même dans plusieurs écoles ;
+- **équipe SGS** : la console du réseau d’écoles (formules, factures, droits de chaque membre) ; elle n’entre chez une école qu’avec l’accord de sa direction.
+
+Chaque école s’installe sur le téléphone comme une application, et ses pages déjà ouvertes restent lisibles quand le réseau coupe.
+
+<a href="https://sgs-demo.onrender.com"><img src="https://img.shields.io/badge/%E2%96%B6%20Lancer%20la%20d%C3%A9mo-2443D6?style=for-the-badge" alt="Lancer la démo"></a>
+
+La démo s’ouvre dans le navigateur, sans rien installer. Quatre établissements fictifs ; les identifiants pour essayer chaque rôle, et la console de l’équipe, sont sur les pages de connexion. Aucun e-mail ni SMS n’est envoyé, et tout est effacé quand la démo se met en veille. Si personne ne l’a ouverte récemment, le premier chargement prend une à deux minutes.
+
+**Technique** : Django 5.2, Python, PostgreSQL (une base par établissement), Celery, PDF avec WeasyPrint, application installable (PWA). 383 tests automatisés, analyse de sécurité (Bandit) et contrôle des dépendances (pip-audit) à chaque modification.
+
+Projet tutoré. Code source privé.
+
 ### CorrectIA · correction de copies d’examen assistée par IA
 
 <a href="https://correctia-demo.onrender.com">
